@@ -1,0 +1,14 @@
+.projects{
+    margin: 0 5%;
+    margin-bottom: 100px;
+}
+
+.projects h1{
+    text-align: end;
+    margin-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}

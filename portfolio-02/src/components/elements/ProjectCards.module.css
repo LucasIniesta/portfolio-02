@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    width: 49%;
+    height: 350px;
+    margin-bottom: 75px;
+}
+
+.description{
+    padding: 1% 5%;
+}
+
+.description h3{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.description p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.content{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    max-width: 80%;
+    border-radius: 10px;
+}

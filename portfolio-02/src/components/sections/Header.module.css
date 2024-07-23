@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 200px;
+}
+
+.header h1{
+    margin: 0;
+    margin-left: 85px;
+    margin-bottom: 150px;
+}
+
+.header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div ul{
+    list-style: none;
+    rotate: 270deg;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header div li{
+    margin-right: 15px;
+    color:#888 ;
+}
+
+.header div h1{
+    margin-right: 15%;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: bold;
+}
+

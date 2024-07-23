@@ -1,0 +1,22 @@
+.skillsCard{
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    width: 20%;
+    padding: 40px;
+}
+
+.skillsCard div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skillsCard div h2{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.skillsCard div{
+    border-left: 2px solid #a0a0a0;
+    padding: 2px 25px;
+}
