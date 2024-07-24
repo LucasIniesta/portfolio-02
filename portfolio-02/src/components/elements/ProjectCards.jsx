@@ -1,11 +1,17 @@
 import style from './ProjectCards.module.css'
 import trilhaProgramador from '../../assets/projects/trilhaProgramador.jpg'
+import Tag from './Tag'
 
 function ProjectCard(){
     return(
         <div className={style.card}>
             <div className={style.content}>
                 <img src={trilhaProgramador} alt="erro" />
+                <div className={style.tag}>
+                    <span><Tag/></span>
+                    <span><Tag/></span>
+                    <span><Tag/></span>
+                </div>
             </div>
             <div className={style.description}>
                 <h3>Title</h3>

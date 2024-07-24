@@ -23,11 +23,23 @@
 .content{
     background-color: #F0F0F0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 
 .content img{
     max-width: 80%;
     border-radius: 10px;
+    margin: auto auto;
+}
+
+.content .tag{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5% ;
+}
+
+.content .tag span{
+    margin-right: 5% ;
 }
