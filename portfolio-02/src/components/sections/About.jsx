@@ -1,18 +1,17 @@
 import styles from './About.module.css'
 
-function About(){
+function About({name, description, insta, git, mail}){
     return(
-        <div className={styles.about}>
+        <div id='about' className={styles.about}>
             <h1>Sobre mim</h1>
             <div>
-                <h3>Nome</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex distinctio, error unde commodi fugit temporibus dolorum corporis doloribus exercitationem consequatur laudantium et aspernatur inventore, adipisci eaque vero molestiae nihil architecto!
-                </p>
+                <h3>{name}</h3>
+                <p>{description}</p>
                 <ul>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">Email</a></li>
+                    <li><a href={insta} target='_blank'>Instagram</a></li>
+                    <li><a href={git} target='_blank'>GitHub</a></li>
+                    <li><a 
+                        href={mail} target='_blank'>Email</a></li>
                 </ul>
             </div>
         </div>

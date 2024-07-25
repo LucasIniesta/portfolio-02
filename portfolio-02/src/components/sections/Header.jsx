@@ -1,17 +1,18 @@
 import style from './Header.module.css'
 
-function Header(){
+function Header({name, stack}){
+
     return(
-        <header className={style.header}>
-            <h1>DNC</h1>
+        <header id='home' className={style.header}>
+            <h1>{name}</h1>
             <div>
                 <ul>
-                    <li>contato</li>
-                    <li>Sobre mim</li>
-                    <li>Projetos</li>
-                    <li>home</li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#home">Home</a></li>
                 </ul>
-                <h1>front-end.web(developer)</h1>
+                <h1>{stack}</h1>
             </div>
         </header>
     )

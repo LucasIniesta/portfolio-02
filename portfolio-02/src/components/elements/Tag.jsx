@@ -1,9 +1,9 @@
 import styles from './Tag.module.css'
 
-function Tag(){
+function Tag({tag}){
     return(
         <div className={styles.tag}>
-            Tec
+            {tag}
         </div>
     )
 }
