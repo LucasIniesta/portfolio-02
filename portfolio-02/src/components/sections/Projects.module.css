@@ -4,8 +4,11 @@
 }
 
 .projects h1{
-    text-align: end;
+    display: inline-block;
+    margin: 0 5% 0 90%;
     margin-bottom: 100px;
+    border-bottom: 3px solid black;
+    
 }
 
 .cards{

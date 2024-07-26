@@ -9,10 +9,11 @@ import Contact from './components/sections/Contact'
 import trilhaProgramador from './assets/projects/trilhaProgramador.jpg'
 import DNCWeather from './assets/projects/DNCWeather.jpg'
 import lpArquitetura from './assets/projects/lpArquitetura.jpg'
+import { FaHtml5, FaCss3, FaReact } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io5";
 
 function App() {
-  const projectsList = 
-  [
+  const projectsList = [
     {
       id: 1,
       title: 'Trilha do desenvolvedor',
@@ -39,9 +40,72 @@ function App() {
     }
   ]
 
+  const techsList = [
+    {
+      id: 1,
+      title: 'html',
+      description: 'Linguagem de marcação para estruturação de páginas web.',
+      icon: FaHtml5
+    },
+    {
+      id: 2,
+      title: 'css',
+      description: 'Estilo visual e layout para páginas web.',
+      icon: FaCss3
+    },
+    {
+      id: 3,
+      title: 'JavaScript',
+      description: 'Linguagem de programação para interatividade em páginas web.',
+      icon: IoLogoJavascript
+    },
+    {
+      id: 4,
+      title: 'React',
+      description: 'Biblioteca JavaScript para construção de interfaces de usuário.',
+      icon: FaReact 
+    }
+  ]
+
+  const skillsList = [
+    {
+      id: 1,
+      title: 'Soft Skills',
+      items: [
+        'Comunicação eficaz', 
+        'Trabalho em equipe', 
+        'Resolução de problemas', 
+        'Adaptabilidade',
+        'Pensamento crítico',
+        'Proatividade',
+        'Curiosidade' 
+      ]
+    },
+    {
+      id: 2,
+      title: 'Estudando',
+      items: [
+        'React', 
+        'TypeScript',
+        'SQL',
+        'Express.js'
+      ]
+    },
+    {
+      id: 3,
+      title: 'Conhecimento em',
+      items: [
+        'HTML', 
+        'CSS',
+        'JavaScript',
+        'Git e GitHub'
+      ]
+    }
+  ]
+
   return (
     <div>
-      <Header name={'Lucas Iniesta Simões'} stack={'Front-end.web(developer)'}/>
+      <Header title={'Bem-vindo'} stack={['Fullstack.(developer)', 'Lucas Iniesta Simões']}/>
       <Projects projects={projectsList}/>
       <About 
         name={'Lucas Iniesta Simões'} 
@@ -50,8 +114,8 @@ function App() {
         git={'https://github.com/LucasIniesta'}
         mail={"mailto:l.iniesta.94@gmail.com?subject=Interesse em Colaboração/ProjetoContato&body=Eu visitei seu portfólio e estou interessado em discutir uma possível colaboração ou saber mais sobre seus projetos.  Por favor, entre em contato comigo para que possamos conversar melhor."}
       />
-      <Techs/>
-      <Skills/>
+      <Techs techs={techsList}/>
+      <Skills skills={skillsList}/>
       <Contact
         linkedin={'https://www.linkedin.com/in/lucas-iniesta-simoes/'}
         insta={'https://www.instagram.com/iniesta_lucas/'}

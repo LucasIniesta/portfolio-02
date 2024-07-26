@@ -26,6 +26,7 @@
 
 .content h4,p{
     margin: 0 0 10px 0;
+
 }
 
 .content p{
@@ -35,4 +36,5 @@
 
 .content h4{
     font-size: 20px;
+    text-transform: uppercase;
 }

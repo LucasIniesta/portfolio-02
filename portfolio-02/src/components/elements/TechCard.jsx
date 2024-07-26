@@ -1,16 +1,15 @@
 import styles from './TechCard.module.css'
-import { CgWebsite } from "react-icons/cg";
 
-function TechCard(){
+function TechCard({title, description, icon: Icon}){
     return(
         <div className={styles.techCard}>
             <div className={styles.icon}>
-                <CgWebsite size='80%'/>
+                <Icon size='80%'/>
             </div>
             <div className={styles.content}>
-            <h4>TecTitle</h4>
+            <h4>{title}</h4>
             <p>
-                Lorem ipsum dolor sit.
+                {description}
             </p>
             </div>
         </div>
