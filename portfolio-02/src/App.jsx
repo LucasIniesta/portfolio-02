@@ -11,6 +11,8 @@ import DNCWeather from './assets/projects/DNCWeather.jpg'
 import lpArquitetura from './assets/projects/lpArquitetura.jpg'
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
+import portfolio2 from './assets/projects/portfolio2.jpg'
+import portfolio from './assets/projects/portfolio.jpg'
 
 function App() {
   const projectsList = [
@@ -37,6 +39,22 @@ function App() {
       img: lpArquitetura,
       tags:['html', 'css'],
       link: 'https://testelandingpagearquitetura.netlify.app/'
+    },
+    {
+      id:4,
+      title: 'Portfolio 2',
+      description: 'Este projeto utiliza React, Vite e a biblioteca de ícones React Icons para criar um portfólio moderno.',
+      img: portfolio2,
+      tags:['react', 'vite', 'JavaScript'],
+      link: 'https://portfolio-02-one-lyart.vercel.app/'
+    },
+    {
+      id:5,
+      title: 'Portfolio',
+      description: 'Este projeto utiliza React a biblioteca de ícones React Icons para criar um portfólio moderno.',
+      img: portfolio,
+      tags:['react', 'JavaScript'],
+      link: 'https://portfolio-drab-two-22.vercel.app/'
     }
   ]
 
