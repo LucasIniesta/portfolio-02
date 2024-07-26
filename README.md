@@ -4,7 +4,7 @@ Este é o meu segundo portfólio, desenvolvido para exibir meus projetos e fixar
 
 ## Descrição
 
-Este projeto utiliza React, Vite e a biblioteca de ícones React Icons para criar um portfólio moderno e responsivo.
+Este projeto utiliza React, Vite e a biblioteca de ícones React Icons para criar um portfólio moderno.
 
 ![image](https://github.com/user-attachments/assets/66448655-4ec9-40e3-bae9-48d9839c141d)
 
