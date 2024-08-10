@@ -19,7 +19,7 @@ function ProjectCard({link, title, description, img, tags}){
 
     return(
         <div className={style.card}>
-            <div onMouseOut={hideTag} onMouseOver={showTag} className={content}>
+            <div onMouseEnter={showTag} onMouseLeave={hideTag} className={content}>
                 <a href={link} target='_blank'><img src={img} alt="erro" /></a>
                 <div className={tag}>
                     {tags.map(tag => (
