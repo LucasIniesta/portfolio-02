@@ -123,7 +123,7 @@ function App() {
 
   return (
     <div>
-      <Header title={'Bem-vindo'} stack={['Fullstack.(developer)', 'Lucas Iniesta Simões']}/>
+      <Header title={'Bem-vindo(a)'} stack={['Fullstack.(developer)', 'Lucas Iniesta Simões']}/>
       <Projects projects={projectsList}/>
       <About 
         name={'Lucas Iniesta Simões'} 
